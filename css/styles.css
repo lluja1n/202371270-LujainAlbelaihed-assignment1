@@ -135,6 +135,17 @@ body.dark-mode .project {
     border-color: #555;
 }
 
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     header {
         padding: 30px 15px;
