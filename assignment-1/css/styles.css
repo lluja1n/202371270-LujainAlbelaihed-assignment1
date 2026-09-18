@@ -23,3 +23,25 @@ main {
 section {
     padding: 40px 0;
 }
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
