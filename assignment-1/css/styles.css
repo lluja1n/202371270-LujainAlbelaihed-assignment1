@@ -45,3 +45,17 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills li {
+    background-color: #f4f4f4;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
