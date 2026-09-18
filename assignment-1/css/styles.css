@@ -113,3 +113,27 @@ form button {
     cursor: pointer;
     width: fit-content;
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .project {
+        min-width: 100%;
+    }
+}
