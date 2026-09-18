@@ -114,6 +114,27 @@ form button {
     width: fit-content;
 }
 
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background-color: #2b2b2b;
+}
+
+body.dark-mode nav a {
+    color: #f4f4f4;
+}
+
+body.dark-mode #skills li {
+    background-color: #333;
+}
+
+body.dark-mode .project {
+    border-color: #555;
+}
+
 @media (max-width: 768px) {
     header {
         padding: 30px 15px;
